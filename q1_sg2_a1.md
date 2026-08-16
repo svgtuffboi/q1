@@ -18,6 +18,7 @@ The machine is slow when multiple students use it in succession.
 Your task is to decompose this problem into smaller, manageable parts that could be solved with computational thinking (CT) Skills.
 
 Step 1: Identify the Big Problem
+
 Main Problem: The vending machine does not reliably process students' purchases, resulting in incorrect change, unavailable items, wrong items being dispensed, and slow service when many students use it at the same time.
 
 Step 2: Identify three to four Sub-Problems
