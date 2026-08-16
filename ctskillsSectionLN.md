@@ -1,3 +1,5 @@
+NOTE TO SIR: CORRECT FORMAT IS IN CODE FORM PO
+
 Annex B
 Computational Thinking Exercise: "Smart Vending Machine"
 Section: 9-PINATUBO Score:____________
