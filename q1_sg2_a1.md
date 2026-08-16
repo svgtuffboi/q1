@@ -1,11 +1,11 @@
-# NOTE TO SIR: CORRECT FORMAT IS IN CODE FORM PO
 
 Annex B
-Computational Thinking Exercise: "Smart Vending Machine"
-Section: 9-PINATUBO Score:____________
+# Computational Thinking Exercise: "Smart Vending Machine"
+Section: 9-PINATUBO 
+Score:____________
 
-C# / Name: 6,7,8 / ESDRELON, DUCUSIN, DE LEON
-Date: 8/14/2026
+C# / Name: 4,5,6 / ESDRELON, DUCUSIN, DE LEON
+Date: 8/16/2026
 
 
 Scenario
@@ -31,15 +31,13 @@ Please list possible sub-problems:
 Step 3: Define Computational Thinking Approaches
 For each sub-problem, apply CT skills:
 
-Sub-Problem                      CT Skill                                Example Solution
-Potential scarcity of items      Pattern Recognition and Abstraction     Monitor the quantity of each item and identify when an item reaches a low-stock level. The machine can display a notification such as "Low Stock" or "Out of Stock."
+| Sub-Problem                    | CT Skill                                         | Example Solution                                                                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Potential scarcity of items    | **Pattern Recognition and Abstraction**          | Monitor the quantity of each item and identify when an item reaches a low-stock level. The machine can display a notification such as **"Low Stock"** or **"Out of Stock."**                         |
+| Prone to wrong button pressing | **Algorithmic Thinking**                         | Create a clear sequence that checks the selected button and displays the corresponding item before confirming the purchase. The student can confirm their selection before the machine dispenses it. |
+| Slow maintenance/restocking    | **Decomposition and Algorithmic Thinking**       | Divide the maintenance process into smaller steps: check inventory, identify empty slots, notify the assigned staff, and restock the necessary items.                                                |
+| Prone to giving wrong change   | **Algorithmic Thinking and Pattern Recognition** | Create a precise calculation process that compares the amount inserted with the item's price and calculates the correct change before dispensing it.                                                 |
 
-Prone to wrong button pressing   Algorithmic Thinking                    Create a clear sequence that checks the selected button and displays the corresponding item before confirming the purchase. The student can confirm their selection                                                                              before the machine dispenses it.
-
-Slow maintenance/restocking      Decomposition and Algorithmic Thinking  Divide the maintenance process into smaller steps: check inventory, identify empty slots, notify the assigned staff, and restock the necessary items.
-
-Prone to giving wrong change     Algorithmic Thinking                    Create a precise calculation process that compares the amount inserted with the item's price and calculates the correct change before dispensing it.
-                                 and Pattern Recognition
 
 
 Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem (Your group could use a separate sheet of paper)
