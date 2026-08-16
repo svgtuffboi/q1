@@ -2,7 +2,7 @@ Annex B
 Computational Thinking Exercise: "Smart Vending Machine"
 Section: 9-PINATUBO Score:____________
 
-C# / Name: 6,7,8 / ESDRELON, ESPIRITU, INTAL 
+C# / Name: 6,7,8 / ESDRELON, DUCUSIN, DE LEON
 Date: 8/14/2026
 
 
@@ -16,95 +16,50 @@ The machine is slow when multiple students use it in succession.
 Your task is to decompose this problem into smaller, manageable parts that could be solved with computational thinking (CT) Skills.
 
 Step 1: Identify the Big Problem
-Main Problem: _____________________________________________________
-_________________________________________________________________
-_________________________________________________________________
+Main Problem: The vending machine does not reliably process students' purchases, resulting in incorrect change, unavailable items, wrong items being dispensed, and slow service when many students use it at the same time.
 
 Step 2: Identify three to four Sub-Problems
 Please list possible sub-problems:
 
-1. ___________________________________________________________
-_____________________________________________________________
-
-2. ___________________________________________________________
-_____________________________________________________________
-
-3. ___________________________________________________________
-_____________________________________________________________
-
-4. ___________________________________________________________
-_____________________________________________________________
-
+1. Potential scarcity of items - The machine may run out of certain snacks or drinks without notifying anyone.
+2. Prone to wrong button pressing - Students may accidentally press the wrong button and receive an incorrect item.
+3. Slow maintenance - Items may not be restocked quickly when they run out.
+4. Prone to giving wrong change - The machine may incorrectly calculate or dispense the customer's change.
 
 Step 3: Define Computational Thinking Approaches
 For each sub-problem, apply CT skills:
 
-Sub-Problem
+Sub-Problem                      CT Skill                                Example Solution
+Potential scarcity of items      Pattern Recognition and Abstraction     Monitor the quantity of each item and identify when an item reaches a low-stock level. The machine can display a notification such as "Low Stock" or "Out of Stock."
 
-CT Skill
+Prone to wrong button pressing   Algorithmic Thinking                    Create a clear sequence that checks the selected button and displays the corresponding item before confirming the purchase. The student can confirm their selection                                                                              before the machine dispenses it.
 
-Example Solution
+Slow maintenance/restocking      Decomposition and Algorithmic Thinking  Divide the maintenance process into smaller steps: check inventory, identify empty slots, notify the assigned staff, and restock the necessary items.
+
+Prone to giving wrong change     Algorithmic Thinking                    Create a precise calculation process that compares the amount inserted with the item's price and calculates the correct change before dispensing it.
+                                 and Pattern Recognition
+
 
 Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem (Your group could use a separate sheet of paper)
 
+Check if Vending Machine is ready
 
+IF machine is busy:
+  display "please wait"
+  wait until the current transaction is finished
+ELSE:
+  accept student's payment
+  display available items
+  student selects an item
 
+  IF selected item is available
+    check payment
+    calculate change
+    dispense item
+    dispense correct change
+    update item inventory
+  ELSE
+    display "item unavailable"
+    return payment
 
-
-
-Rubrics For Grading
-Total Points: 20pts
-
-Criteria & Levels of Performance
-
-Criteria
-
-Excellent (4)
-
-Good (3)
-
-Fair (2)
-
-N.I. (1)
-
-Identification of Sub-Problems
-
-Identifies 3+ clear, relevant sub-problems that directly connect to the scenario.
-
-Identifies 2–3 mostly relevant sub-problems.
-
-Identifies 1–2 vague or partially relevant sub-problems.
-
-Struggles to identify sub-problems or lists unrelated issues.
-
-Application of CT Strategies
-
-Correctly applies appropriate CT strategies (abstraction, decomposition, pattern recognition, algorithm design) to each sub-problem with clear reasoning.
-
-Applies CT strategies to most sub-problems, with minor errors or limited explanation.
-
-Applies CT strategies inconsistently, with weak or unclear reasoning.
-
-Rarely applies CT strategies or misuses them.
-
-Flowchart / Pseudocode
-
-X 2
-
-Flowchart / Pseudocode is complete, logical, and easy to follow; shows clear steps and decision points.
-
-Flowchart / Pseudocode is mostly complete and logical, with minor gaps or unclear steps.
-
-Flowchart / Pseudo Code is partially complete, missing key steps or connections.
-
-Flowchart / Pseudocode is incomplete, confusing, or missing entirely.
-
-Reflection / Explanation
-
-Provides thoughtful reflection on how decomposition helps problem-solving and identifies CT skills used with strong justification.
-
-Provides adequate reflection with some justification of CT skills.
-
-Provides limited reflection with weak or generic justification.
-
-Provides minimal or no reflection.
+END
