@@ -62,23 +62,23 @@ EndAlgorithm
 Questions with Checklists
 1. Efficiency
 Which algorithm is faster when the list of numbers is very large? Why?
-- 
+- Pseudocode 1 is faster because it uses only one loop, while Pseudocode 2 uses two nested loops. Pseudocode 1 checks each number only once, making it more efficient for a very large list. Pseudocode 2 repeatedly compares numbers with each other, which requires many more steps.
 
 Checklist to guide your answer:
 
 2. Readability
 Which algorithm is easier to understand at first glance? What makes it clearer?
-- 
+- Pseudocode 1 is easier to understand because its logic is simpler and more direct. It starts with the first number as the maximum and checks each following number to see if it is larger. Its variable name “max” is also meaningful and clearly shows what the algorithm is looking for.
 
 
 3. Maintainability
 If you had to add a new feature (like finding both max and min), which algorithm would be easier to update? Why?
-- 
+- Pseudocode #1 would be easier to update with min and max in mind since it is simpler and has fewer lines.
 
 
 4. Testability
 Which algorithm is easier to test with different inputs? Why?
--
+- Pseudocode #2 will test well with more inputs since it has longer lines and is much more detailed; this will make including various amount of outputs easier and will make the algorithm run much more smoothly.
 
 5. Security
 Imagine the input list comes from a user. What should the algorithm check to avoid errors or misuse?
